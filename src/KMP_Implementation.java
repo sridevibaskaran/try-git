@@ -41,7 +41,9 @@ public class KMP_Implementation {
 
 		// initialize new array and preprocess the pattern
 		int[] b = preProcessPattern(ptrn);
-
+		
+		System.out.println("Hi Git");
+		
 		while (i < txtLen) {
 			while (j >= 0 && text[i] != ptrn[j]) {
 				/*
